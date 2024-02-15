@@ -35,10 +35,10 @@ function App() {
     <div>
       {isLoggedIn ? (
         <div>
-          <div className="flex flex-col gap-5 pt-5 pl-10 w-32">
+          <div className="flex flex-col gap-5 pt-5 pl-10 ">
             <h1 className="text-xl font-bold">Welcome, {username}!</h1>
             <button
-              className="bg-blue-500 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-600 w-full"
+              className="bg-red-500 text-white font-bold py-2 px-4 w-20 rounded-md hover:bg-red-600"
               onClick={handleLogout}
             >
               Logout
